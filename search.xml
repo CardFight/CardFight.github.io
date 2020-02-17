@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>游戏机制简介</title>
+      <link href="/2020/02/15/game/"/>
+      <url>/2020/02/15/game/</url>
+      
+        <content type="html"><![CDATA[<h1 id="游戏机制简介"><a href="#游戏机制简介" class="headerlink" title="游戏机制简介"></a>游戏机制简介</h1><ul><li>游戏机制模仿<a href="https://baike.baidu.com/item/%E5%8D%A1%E6%88%98%E4%B8%89%E5%9B%BD/9435377?fr=aladdin" target="_blank" rel="noopener">卡战三国</a>的游戏机制，在其基础上进行改善</li></ul><hr><h2 id="游戏基本介绍"><a href="#游戏基本介绍" class="headerlink" title="游戏基本介绍"></a>游戏基本介绍</h2><ul><li>游戏类型：卡牌类策略对战游戏</li><li>本文章主要介绍游戏特点，详细细节访问官网或向作者详细咨询</li><li>联系方式 QQ：253518756</li></ul><hr><h2 id="卡牌系统"><a href="#卡牌系统" class="headerlink" title="卡牌系统"></a>卡牌系统</h2><ul><li>卡牌基本分类为四种，<strong>武将牌、士兵牌、宝物牌、法术牌</strong>四类。</li><li>任何一张卡牌都有<strong>阵营</strong>、<strong>回合等待数</strong>、<strong>攻击值</strong>、<strong>血量值和卡牌技能</strong>五个属性。</li></ul><h3 id="武将牌介绍"><a href="#武将牌介绍" class="headerlink" title="武将牌介绍"></a>武将牌介绍</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2F101.jpg" alt="武将牌"></p><ul><li>武将牌作为一套卡组唯一的核心，决定了一套卡组的组成。例如这张武将决定了这套卡组由1张武将卡，4张士兵卡，1张宝物卡，1张法术卡共七张卡组成。</li></ul><h3 id="士兵牌介绍"><a href="#士兵牌介绍" class="headerlink" title="士兵牌介绍"></a>士兵牌介绍</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fcfed68166d224f4a693b0e4208f790529922d1d3.jpg" alt="士兵牌"></p><ul><li>士兵牌作为游戏卡组最基本的元素，拥有不同的兵种属性：步兵、骑兵、弓兵、异兽、龙、亡灵、军备共七种，在技能中不同的兵种之间会有克制，相同的兵种之间会有加成。</li></ul><h3 id="宝物牌"><a href="#宝物牌" class="headerlink" title="宝物牌"></a>宝物牌</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fa0427d4e9258d1092aeec6d8da58ccbf6c814d65.jpg" alt="宝物牌"></p><ul><li>宝物牌没有血量和攻击值属性，抽到后加载固定回合数后上场直接对场上第一个卡片执行技能效果</li></ul><h3 id="法术牌"><a href="#法术牌" class="headerlink" title="法术牌"></a>法术牌</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fb42b5bcf3bc79f3d35d09d61bba1cd11728b2940.jpg" alt="法术牌"></p><ul><li>法术牌同宝物牌相似，不过使用对象有所差别，是我方全场卡牌或敌方全场卡牌</li></ul><hr><h2 id="阵营机制"><a href="#阵营机制" class="headerlink" title="阵营机制"></a>阵营机制</h2><ul><li>游戏分为四大阵营，魏蜀吴群，外加侠国。魏蜀吴群每个势力都有其特点。侠国主要由宝物组成，其他四个阵营的卡组都可以使用这个阵营的卡牌</li><li>阵营的作用：通过阵营限制一个卡组只能有同阵营的或侠牌的卡组成，是游戏系统整体架构的重要元素。</li></ul><hr><h2 id="兵种机制"><a href="#兵种机制" class="headerlink" title="兵种机制"></a>兵种机制</h2><ul><li>游戏将士兵卡分为<strong>步兵、骑兵、弓兵、异兽、龙、亡灵、军备</strong>共七种。存在骑兵在技能上会对步兵有压制，弓兵对飞行系技能会有压制，亡灵有几率触发重生技能等特点等。</li></ul><hr><h2 id="卡组机制"><a href="#卡组机制" class="headerlink" title="卡组机制"></a>卡组机制</h2><ul><li>一套卡组由七张牌组成，一张武将牌和六张非武将牌，具体组成由武将决定（详见卡牌机制中的介绍）</li><li>游戏中会有多种游戏模式，会进行卡组组合，也就是一局游戏中出战多套卡组。这样不同势力的卡组中卡牌技能相辅相承，是游戏核心乐趣之一。</li></ul><hr><h2 id="游戏核心流程"><a href="#游戏核心流程" class="headerlink" title="游戏核心流程"></a>游戏核心流程</h2><h3 id="联机对战"><a href="#联机对战" class="headerlink" title="联机对战"></a>联机对战</h3><ul><li>玩家通过自己已经收集到的卡片组成自己的卡组。</li><li>对战模式中有1v1、2v2、3v3等多种模式，这里不是指玩家数量，是两位玩家选择用多少套不同的卡组进行对战的选项。卡组数量越多对卡牌搭配要求难度更高</li><li>会设立天梯制度，增加游戏成就感。<h3 id="单机模式"><a href="#单机模式" class="headerlink" title="单机模式"></a>单机模式</h3></li><li>单机模式会以关卡剧情的形式让玩家进行闯关解锁</li><li>单机模式会限制上阵的卡组数量</li><li>单机模式要求玩家用自己搭配好的卡组与电脑对战，如果胜利即可得到奖励，是卡牌收集的重要途径。<h3 id="核心玩法"><a href="#核心玩法" class="headerlink" title="核心玩法"></a>核心玩法</h3></li><li>敌我双方依次进行回合，<strong>全程玩家没有任何操作</strong>，加快游戏节奏，减少肝度。</li><li>抽牌阶段，从牌库里抽一张牌到手里，牌库由上场前玩家选择的一套或多套卡组中的卡牌组成，按随机顺序抽取。</li><li>攻击阶段，在每个玩家的回合每个场上的卡挨个攻击对方，如果被攻击卡位是空的就掉玩家血，玩家血量归为零，游戏结束。</li><li>减费阶段，抽到手里的牌需要在手牌中等待，越厉害的牌需要等待的时间越长。每回合所有人手里的卡牌回合数减1，减到0上场。</li><li><a href="https://blog-medias.cdn.bcebos.com/note%2FNew%20Unity%20Project%202020-02-03%2003-00-57_Trim.mp4" target="_blank" rel="noopener">视频Demo演示</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Game </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

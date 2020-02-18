@@ -4,11 +4,61 @@
   
     
     <entry>
-      <title>游戏机制简介</title>
-      <link href="/2020/02/15/game/"/>
-      <url>/2020/02/15/game/</url>
+      <title>工作室寄语</title>
+      <link href="/2020/02/18/gong-zuo-shi-ji-yu/"/>
+      <url>/2020/02/18/gong-zuo-shi-ji-yu/</url>
       
-        <content type="html"><![CDATA[<h1 id="游戏机制简介"><a href="#游戏机制简介" class="headerlink" title="游戏机制简介"></a>游戏机制简介</h1><ul><li>游戏机制模仿<a href="https://baike.baidu.com/item/%E5%8D%A1%E6%88%98%E4%B8%89%E5%9B%BD/9435377?fr=aladdin" target="_blank" rel="noopener">卡战三国</a>的游戏机制，在其基础上进行改善</li></ul><hr><h2 id="游戏基本介绍"><a href="#游戏基本介绍" class="headerlink" title="游戏基本介绍"></a>游戏基本介绍</h2><ul><li>游戏类型：卡牌类策略对战游戏</li><li>本文章主要介绍游戏特点，详细细节访问官网或向作者详细咨询</li><li>联系方式 QQ：253518756</li></ul><hr><h2 id="卡牌系统"><a href="#卡牌系统" class="headerlink" title="卡牌系统"></a>卡牌系统</h2><ul><li>卡牌基本分类为四种，<strong>武将牌、士兵牌、宝物牌、法术牌</strong>四类。</li><li>任何一张卡牌都有<strong>阵营</strong>、<strong>回合等待数</strong>、<strong>攻击值</strong>、<strong>血量值和卡牌技能</strong>五个属性。</li></ul><h3 id="武将牌介绍"><a href="#武将牌介绍" class="headerlink" title="武将牌介绍"></a>武将牌介绍</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2F101.jpg" alt="武将牌"></p><ul><li>武将牌作为一套卡组唯一的核心，决定了一套卡组的组成。例如这张武将决定了这套卡组由1张武将卡，4张士兵卡，1张宝物卡，1张法术卡共七张卡组成。</li></ul><h3 id="士兵牌介绍"><a href="#士兵牌介绍" class="headerlink" title="士兵牌介绍"></a>士兵牌介绍</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fcfed68166d224f4a693b0e4208f790529922d1d3.jpg" alt="士兵牌"></p><ul><li>士兵牌作为游戏卡组最基本的元素，拥有不同的兵种属性：步兵、骑兵、弓兵、异兽、龙、亡灵、军备共七种，在技能中不同的兵种之间会有克制，相同的兵种之间会有加成。</li></ul><h3 id="宝物牌"><a href="#宝物牌" class="headerlink" title="宝物牌"></a>宝物牌</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fa0427d4e9258d1092aeec6d8da58ccbf6c814d65.jpg" alt="宝物牌"></p><ul><li>宝物牌没有血量和攻击值属性，抽到后加载固定回合数后上场直接对场上第一个卡片执行技能效果</li></ul><h3 id="法术牌"><a href="#法术牌" class="headerlink" title="法术牌"></a>法术牌</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fb42b5bcf3bc79f3d35d09d61bba1cd11728b2940.jpg" alt="法术牌"></p><ul><li>法术牌同宝物牌相似，不过使用对象有所差别，是我方全场卡牌或敌方全场卡牌</li></ul><hr><h2 id="阵营机制"><a href="#阵营机制" class="headerlink" title="阵营机制"></a>阵营机制</h2><ul><li>游戏分为四大阵营，魏蜀吴群，外加侠国。魏蜀吴群每个势力都有其特点。侠国主要由宝物组成，其他四个阵营的卡组都可以使用这个阵营的卡牌</li><li>阵营的作用：通过阵营限制一个卡组只能有同阵营的或侠牌的卡组成，是游戏系统整体架构的重要元素。</li></ul><hr><h2 id="兵种机制"><a href="#兵种机制" class="headerlink" title="兵种机制"></a>兵种机制</h2><ul><li>游戏将士兵卡分为<strong>步兵、骑兵、弓兵、异兽、龙、亡灵、军备</strong>共七种。存在骑兵在技能上会对步兵有压制，弓兵对飞行系技能会有压制，亡灵有几率触发重生技能等特点等。</li></ul><hr><h2 id="卡组机制"><a href="#卡组机制" class="headerlink" title="卡组机制"></a>卡组机制</h2><ul><li>一套卡组由七张牌组成，一张武将牌和六张非武将牌，具体组成由武将决定（详见卡牌机制中的介绍）</li><li>游戏中会有多种游戏模式，会进行卡组组合，也就是一局游戏中出战多套卡组。这样不同势力的卡组中卡牌技能相辅相承，是游戏核心乐趣之一。</li></ul><hr><h2 id="游戏核心流程"><a href="#游戏核心流程" class="headerlink" title="游戏核心流程"></a>游戏核心流程</h2><h3 id="联机对战"><a href="#联机对战" class="headerlink" title="联机对战"></a>联机对战</h3><ul><li>玩家通过自己已经收集到的卡片组成自己的卡组。</li><li>对战模式中有1v1、2v2、3v3等多种模式，这里不是指玩家数量，是两位玩家选择用多少套不同的卡组进行对战的选项。卡组数量越多对卡牌搭配要求难度更高</li><li>会设立天梯制度，增加游戏成就感。<h3 id="单机模式"><a href="#单机模式" class="headerlink" title="单机模式"></a>单机模式</h3></li><li>单机模式会以关卡剧情的形式让玩家进行闯关解锁</li><li>单机模式会限制上阵的卡组数量</li><li>单机模式要求玩家用自己搭配好的卡组与电脑对战，如果胜利即可得到奖励，是卡牌收集的重要途径。<h3 id="核心玩法"><a href="#核心玩法" class="headerlink" title="核心玩法"></a>核心玩法</h3></li><li>敌我双方依次进行回合，<strong>全程玩家没有任何操作</strong>，加快游戏节奏，减少肝度。</li><li>抽牌阶段，从牌库里抽一张牌到手里，牌库由上场前玩家选择的一套或多套卡组中的卡牌组成，按随机顺序抽取。</li><li>攻击阶段，在每个玩家的回合每个场上的卡挨个攻击对方，如果被攻击卡位是空的就掉玩家血，玩家血量归为零，游戏结束。</li><li>减费阶段，抽到手里的牌需要在手牌中等待，越厉害的牌需要等待的时间越长。每回合所有人手里的卡牌回合数减1，减到0上场。</li><li><a href="https://blog-medias.cdn.bcebos.com/note%2FNew%20Unity%20Project%202020-02-03%2003-00-57_Trim.mp4" target="_blank" rel="noopener">视频Demo演示</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>各位对我们投以关注的小伙伴们大家好，这是我们以工作室名义发出的第一篇对外文章，在此感谢一直以来对我们工作提供支持、鼓励的小伙伴们，大家都是因为同一款游戏才走到一起，工作室也即将准备重新开发这款游戏，如今准备工作已经基本就绪，马上一幅美丽的绘卷将在各位面前展开，流畅贴心的全新操作页面，精美绝伦的全新卡牌立绘，与众不同的众多玩法，为了鸣谢一路以来支持我们的小伙伴们而设置的老玩家福利，这不是你记忆中的那个游戏，但带来的快乐没两样，这是你不曾体验的全新版本，它就是——《<strong>故国神游</strong>》从游戏画面到游戏机制，全都重新设计，在给小伙伴们带来新鲜感的同时，也保留原来特点给小伙伴们带来回忆，开发阶段刚刚开始，所以我们还需要小伙伴们给我们帮助宽容与鼓励，再次感谢大家！</li></ul><hr><ul><li>另外为了方便小伙伴们监督开发进度，工作室也申请自己<strong>公众号、微博、b站</strong>等新媒体账号，欢迎小伙伴们踊跃关注，发表对我们的意见、提出自己的建议、或者单纯的和我们互动，下一步我们将在各新媒体账号上同步发布我们的<strong>开发进度、开发日志</strong>等，再次希望小伙伴们呼朋引伴踊跃关注！</li></ul><hr><ul><li>最后呢，受限于团体人员及团队经济状况，导致开发进度比较缓慢，我们会面对全网<strong>招募有一技之长</strong>的小伙伴，加入到游戏的开发工作中来，同时也计划开展众筹活动以降低资金压力，参与众筹的小伙伴可以领取到众多惊喜奖励哦，众筹所得资金全部<strong>透明公开</strong>到各新媒体账号及官网中，欢迎小伙伴关注监督。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> STU </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> STU </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>众筹计划</title>
+      <link href="/2020/02/18/zhong-chou-ji-hua/"/>
+      <url>/2020/02/18/zhong-chou-ji-hua/</url>
+      
+        <content type="html"><![CDATA[<h2 id="众筹计划公示"><a href="#众筹计划公示" class="headerlink" title="众筹计划公示"></a>众筹计划公示</h2><ul><li>受限于团队的经济状况，导致开发严重滞缓，迫不得已工作室决定<strong>向全网发起众筹</strong>，在此向小伙伴们致歉，恳请小伙伴们的支持与帮助。</li><li>为表歉意工作室为众筹的小伙伴们准备了丰厚的众筹回报，除此之外还会设有其他活动以回馈对我们提供支持与鼓励的你们，关于众筹来的所有资金流向我们会全部<strong>透明公开到各新媒体平台</strong>，供小伙伴们监督，再次希望小伙伴们支持我们，就当日行一善献爱心。</li><li>现阶段游戏系统还没有完善，但是<strong>我们前期很需要这笔资金</strong>，我们再次保证资金档不会改变，在游戏发展到一定阶段可以明确回报礼包内容之后，第一时间将回报礼包内容于各新媒体账号公示出来。</li><li>游戏中会设计<strong>古币</strong>（高级货币）<strong>五铢钱</strong>（通用货币），五铢钱可购买游戏中大部分物品及卡包，五铢钱可通过正常游戏获取，古币获取难度相对较高，同时购买力也较高，古币则可以兑换五铢钱，存在部分仅可使用古币购买商品。</li><li>初期为了打造一个良好的游戏环境我们不打算提供充值功能，因此古币的获取速度会很慢。又考虑到部分玩家需要大量古币，所以我们决定，为回馈一路上给予我们帮助的小伙伴，在众筹中除众筹回报外，我们会将众筹金额<strong>按1比10比例的古币返到将来各位玩家的指定游戏账户上</strong>。如众筹208元档位除回报外可得2080古币，众筹368档位除回报外可得3680古币。</li></ul><hr><h2 id="众筹通道："><a href="#众筹通道：" class="headerlink" title="众筹通道："></a>众筹通道：</h2><p><img src="/imgs/binaryCode.jpg" alt="微信扫码即可支持我们！"></p><ul><li>再次请求各位的支持，卡战工作室感谢各位玩家！</li></ul><hr><h2 id="众筹档位公示（暂定）"><a href="#众筹档位公示（暂定）" class="headerlink" title="众筹档位公示（暂定）"></a>众筹档位公示（暂定）</h2><ul><li>由于希望借此回馈小伙伴们，所以工作室决定进行为期两周的“回报奖励征集”活动，自今日起截止于2020年3月2日，小伙伴们可以在官网本文章评论区踊跃发言，提出自己感兴趣的周边，工作室再依据可行性确定回报奖励，确保小伙伴们利益的同时也让小伙伴们拿到自己喜欢的周边。</li><li>卡战工作室与所有玩家同在！希望得到你们的支持！<h4 id="声援"><a href="#声援" class="headerlink" title="声援"></a>声援</h4></li><li>我们以工作室的名义感谢每一个支持我们的朋友！<h4 id="28元"><a href="#28元" class="headerlink" title="28元"></a>28元</h4></li><li>加入官网致谢文章</li><li>精美电脑壁纸、手机壁纸各一份</li><li>游戏大礼包 礼包码<h4 id="68元"><a href="#68元" class="headerlink" title="68元"></a>68元</h4></li><li>加入官网致谢文章</li><li>精美电脑壁纸、手机壁纸各一份</li><li>限量游戏相关实体海报*1</li><li>定制明信片*5</li><li>游戏专属礼包 礼包码<h3 id="128元"><a href="#128元" class="headerlink" title="128元"></a>128元</h3></li><li>加入游戏以及官网致谢专栏</li><li>精美电脑壁纸、手机壁纸各一份</li><li>游戏相关实体海报*1</li><li>定制明信片*5</li><li>获得封闭测试名额</li><li>游戏特约礼包 礼包码<h3 id="208元"><a href="#208元" class="headerlink" title="208元"></a>208元</h3></li><li>加入游戏以及官网致谢专栏</li><li>精美电脑壁纸、手机壁纸各一份</li><li>游戏相关实体海报*1</li><li>定制明信片*10</li><li>全套游戏原画武将立绘电子版</li><li>工作室专属徽章*1（有编号）</li><li>获得封闭测试名额</li><li>游戏限定礼包 礼包码<h3 id="368元"><a href="#368元" class="headerlink" title="368元"></a>368元</h3></li><li>加入游戏以及官网致谢专栏</li><li>精美电脑壁纸、手机壁纸各一份</li><li>游戏相关实体海报*1</li><li>定制明信片*10</li><li>全套游戏卡牌立绘电子版</li><li>工作室专属徽章*1（有编号）</li><li>获得封闭测试名额</li><li>专属纸质感谢信（有编码）</li><li>三种礼包码我全都要<h3 id="528元"><a href="#528元" class="headerlink" title="528元"></a>528元</h3></li><li>加入游戏以及官网致谢专栏</li><li>精美电脑壁纸、手机壁纸各一份</li><li>游戏相关实体海报*1</li><li>定制明信片*10</li><li>全套游戏卡牌立绘电子版</li><li>工作室专属徽章*1（有编号）</li><li>获得封闭测试名额</li><li>专属纸质感谢信（有编码）</li><li>加入制作小组名单</li><li>三种礼包码我全都要<h2 id="1088元"><a href="#1088元" class="headerlink" title="1088元"></a>1088元</h2></li><li>十年饮冰，难凉热血，额外支持一下有梦想的孩子们。您会得到工作室集体感谢。</li><li>加入游戏以及官网致谢专栏</li><li>精美电脑壁纸、手机壁纸各一份</li><li>游戏相关实体海报*1</li><li>定制明信片*10</li><li>全套游戏卡牌立绘电子版</li><li>工作室专属徽章*1（有编号）</li><li>获得封闭测试名额</li><li>专属纸质感谢信（有编码）</li><li>加入制作小组名单</li><li>三种礼包码我全都要</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> STU </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> STU </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>游戏机制简介</title>
+      <link href="/2020/02/15/you-xi-ji-zhi/"/>
+      <url>/2020/02/15/you-xi-ji-zhi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="游戏机制简介"><a href="#游戏机制简介" class="headerlink" title="游戏机制简介"></a>游戏机制简介</h1><ul><li>游戏机制模仿<a href="https://baike.baidu.com/item/%E5%8D%A1%E6%88%98%E4%B8%89%E5%9B%BD/9435377?fr=aladdin" target="_blank" rel="noopener">卡战三国</a>的游戏机制，在其基础上进行改善</li></ul><hr><h2 id="游戏基本介绍"><a href="#游戏基本介绍" class="headerlink" title="游戏基本介绍"></a>游戏基本介绍</h2><ul><li>游戏类型：卡牌类策略对战游戏</li><li>本文章主要介绍游戏特点，详细细节访问官网或向作者详细咨询</li></ul><hr><h2 id="卡牌系统"><a href="#卡牌系统" class="headerlink" title="卡牌系统"></a>卡牌系统</h2><ul><li>卡牌基本分类为四种，<strong>武将牌、士兵牌、宝物牌、法术牌</strong>四类。</li><li>任何一张卡牌都有<strong>阵营</strong>、<strong>回合等待数</strong>、<strong>攻击值</strong>、<strong>血量值和卡牌技能</strong>五个属性。</li></ul><h3 id="武将牌介绍"><a href="#武将牌介绍" class="headerlink" title="武将牌介绍"></a>武将牌介绍</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2F101.jpg" alt="武将牌"></p><ul><li>武将牌作为一套卡组唯一的核心，决定了一套卡组的组成。例如这张武将决定了这套卡组由1张武将卡，4张士兵卡，1张宝物卡，1张法术卡共七张卡组成。</li></ul><h3 id="士兵牌介绍"><a href="#士兵牌介绍" class="headerlink" title="士兵牌介绍"></a>士兵牌介绍</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fcfed68166d224f4a693b0e4208f790529922d1d3.jpg" alt="士兵牌"></p><ul><li>士兵牌作为游戏卡组最基本的元素，拥有不同的兵种属性：步兵、骑兵、弓兵、异兽、龙、亡灵、军备共七种，在技能中不同的兵种之间会有克制，相同的兵种之间会有加成。</li></ul><h3 id="宝物牌"><a href="#宝物牌" class="headerlink" title="宝物牌"></a>宝物牌</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fa0427d4e9258d1092aeec6d8da58ccbf6c814d65.jpg" alt="宝物牌"></p><ul><li>宝物牌没有血量和攻击值属性，抽到后加载固定回合数后上场直接对场上第一个卡片执行技能效果</li></ul><h3 id="法术牌"><a href="#法术牌" class="headerlink" title="法术牌"></a>法术牌</h3><p><img src="https://blog-medias.cdn.bcebos.com/note%2Fb42b5bcf3bc79f3d35d09d61bba1cd11728b2940.jpg" alt="法术牌"></p><ul><li>法术牌同宝物牌相似，不过使用对象有所差别，是我方全场卡牌或敌方全场卡牌</li></ul><hr><h2 id="阵营机制"><a href="#阵营机制" class="headerlink" title="阵营机制"></a>阵营机制</h2><ul><li>游戏分为四大阵营，魏蜀吴群，外加侠国。魏蜀吴群每个势力都有其特点。侠国主要由宝物组成，其他四个阵营的卡组都可以使用这个阵营的卡牌</li><li>阵营的作用：通过阵营限制一个卡组只能有同阵营的或侠牌的卡组成，是游戏系统整体架构的重要元素。</li></ul><hr><h2 id="兵种机制"><a href="#兵种机制" class="headerlink" title="兵种机制"></a>兵种机制</h2><ul><li>游戏将士兵卡分为<strong>步兵、骑兵、弓兵、异兽、龙、亡灵、军备</strong>共七种。存在骑兵在技能上会对步兵有压制，弓兵对飞行系技能会有压制，亡灵有几率触发重生技能等特点等。</li></ul><hr><h2 id="卡组机制"><a href="#卡组机制" class="headerlink" title="卡组机制"></a>卡组机制</h2><ul><li>一套卡组由七张牌组成，一张武将牌和六张非武将牌，具体组成由武将决定（详见卡牌机制中的介绍）</li><li>游戏中会有多种游戏模式，会进行卡组组合，也就是一局游戏中出战多套卡组。这样不同势力的卡组中卡牌技能相辅相承，是游戏核心乐趣之一。</li></ul><hr><h2 id="游戏核心流程"><a href="#游戏核心流程" class="headerlink" title="游戏核心流程"></a>游戏核心流程</h2><h3 id="联机对战"><a href="#联机对战" class="headerlink" title="联机对战"></a>联机对战</h3><ul><li>玩家通过自己已经收集到的卡片组成自己的卡组。</li><li>对战模式中有1v1、2v2、3v3等多种模式，这里不是指玩家数量，是两位玩家选择用多少套不同的卡组进行对战的选项。卡组数量越多对卡牌搭配要求难度更高</li><li>会设立天梯制度，增加游戏成就感。<h3 id="单机模式"><a href="#单机模式" class="headerlink" title="单机模式"></a>单机模式</h3></li><li>单机模式会以关卡剧情的形式让玩家进行闯关解锁</li><li>单机模式会限制上阵的卡组数量</li><li>单机模式要求玩家用自己搭配好的卡组与电脑对战，如果胜利即可得到奖励，是卡牌收集的重要途径。<h3 id="核心玩法"><a href="#核心玩法" class="headerlink" title="核心玩法"></a>核心玩法</h3></li><li>敌我双方依次进行回合，<strong>全程玩家没有任何操作</strong>，加快游戏节奏，减少肝度。</li><li>抽牌阶段，从牌库里抽一张牌到手里，牌库由上场前玩家选择的一套或多套卡组中的卡牌组成，按随机顺序抽取。</li><li>攻击阶段，在每个玩家的回合每个场上的卡挨个攻击对方，如果被攻击卡位是空的就掉玩家血，玩家血量归为零，游戏结束。</li><li>减费阶段，抽到手里的牌需要在手牌中等待，越厉害的牌需要等待的时间越长。每回合所有人手里的卡牌回合数减1，减到0上场。</li><li><a href="https://blog-medias.cdn.bcebos.com/note%2FNew%20Unity%20Project%202020-02-03%2003-00-57_Trim.mp4" target="_blank" rel="noopener">视频Demo演示</a></li></ul>]]></content>
       
       
       <categories>
@@ -17,6 +67,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
       
     </entry>
     

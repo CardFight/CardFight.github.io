@@ -303,7 +303,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 header .button-collapse i {
@@ -704,7 +704,8 @@ header .go-back i {
 
 .dream .title,
 .music-player .title,
-.video-player .title {
+.video-player .title,
+.socialcontact .title{
     margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 700;
@@ -713,6 +714,17 @@ header .go-back i {
 .dream .text {
     opacity: .6;
     font-size: 1.1rem;
+}
+
+
+.socialcontact {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.socialcontact .text {
+    opacity: 1;
+    font-size: 1.2rem;
 }
 
 .music-player,
@@ -1381,7 +1393,7 @@ thead {
     background: #0f9d58;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
     #cd-timeline {
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -1422,7 +1434,7 @@ thead {
     margin-bottom: 0;
 }
 
-@media only screen and (min-width: 870px) {
+@media only screen and (min-width: 768px) {
     .cd-timeline-block {
         margin: 1em 0;
     }
@@ -1446,7 +1458,7 @@ thead {
     box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
     .cd-timeline-img {
         width: 40px;
         height: 40px;
@@ -1501,7 +1513,7 @@ thead {
     border: 1px dashed #ffa726;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
     .cd-timeline-content h2 {
         font-size: 1.25rem;
     }
@@ -1516,7 +1528,7 @@ thead {
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
     .cd-timeline-content {
         margin-left: 0;
         padding: 0;
@@ -1902,7 +1914,7 @@ footer .copy-right {
     .info-break-policy {
         word-break: keep-all;
         float: left;
-        width: 50%;
+        width: 60%;
     }
 }
 
